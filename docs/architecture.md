@@ -49,7 +49,7 @@ The primary analytical table is `data/processed/late_tax_analytics.csv`. It cont
 DuckDB SQL provides reproducible analysis using CTEs, conditional aggregation, GROUP BY, medians and percentiles, window functions, partitioned ranking, cumulative contribution analysis, and sample-size eligibility logic.
 
 ### 6. Operational Analytics
-Route Ô� time-period groups are evaluated using aggregate Late Tax burden, late-trip frequency, late-trip severity, and sample size.
+Route × time-period groups are evaluated using aggregate Late Tax burden, late-trip frequency, late-trip severity, and sample size.
 
 Operational priority scoring combines 60% Late Tax burden, 25% late frequency, and 15% late severity. The score is a decision-support heuristic rather than a causal model.
 
