@@ -1,0 +1,20 @@
+route_id,time_period,trips,avg_lateness_min,median_lateness_min,p90_lateness_min,late_trips,avg_late_severity_min,max_lateness_min,late_trip_pct,reliability_segment
+BA:Green-N,Evening Peak,76,1.6,1.12,1.29,4,9.22,16.42,5.26,Critical
+BA:Green-N,Midday,266,1.6,1.12,1.12,12,10.34,18.07,4.51,Critical
+BA:Yellow-N,Evening,50,1.89,1.48,1.48,1,24.0,24.0,2.0,Critical
+BA:Yellow-N,Overnight,335,3.93,3.37,7.3,88,7.33,25.13,26.27,Chronic
+BA:Blue-N,Evening,103,1.42,1.42,2.08,3,5.87,6.28,2.91,Chronic
+BA:Green-N,Morning Peak,142,1.27,1.12,1.12,4,6.27,7.63,2.82,Chronic
+BA:Green-N,Overnight,181,1.51,1.12,2.65,5,7.14,9.77,2.76,Chronic
+BA:Blue-N,Morning Peak,88,0.9,0.82,0.82,1,7.27,7.27,1.14,Chronic
+BA:Blue-N,Midday,135,0.88,0.82,0.82,1,8.45,8.45,0.74,Acute
+BA:Blue-N,Evening Peak,89,0.83,0.82,0.82,0,,1.05,0.0,Reliable
+BA:Blue-N,Overnight,64,0.84,0.82,0.82,0,,1.42,0.0,Reliable
+BA:Yellow-N,Evening Peak,72,1.13,1.18,1.48,0,,1.48,0.0,Reliable
+BA:Yellow-N,Midday,115,1.09,0.78,1.48,0,,1.48,0.0,Reliable
+BA:Yellow-N,Morning Peak,75,1.19,1.18,1.48,0,,4.82,0.0,Reliable
+BA:Red-N,Morning Peak,3,6.57,4.1,10.34,1,11.9,11.9,33.33,Insufficient Sample
+BA:Green-N,Evening,15,1.8,1.12,1.33,1,11.22,11.22,6.67,Insufficient Sample
+BA:Red-N,Evening,1,4.0,4.0,4.0,0,,4.0,0.0,Insufficient Sample
+BA:Red-N,Evening Peak,1,4.7,4.7,4.7,0,,4.7,0.0,Insufficient Sample
+BA:Red-N,Midday,2,1.08,1.08,1.08,0,,1.08,0.0,Insufficient Sample
