@@ -1,0 +1,84 @@
+LATE TAX - DATA QUALITY REPORT
+========================================
+Master file: data/processed/daly_powell_all_v2.csv
+Total rows: 308
+Total columns: 19
+Monthly files: 15
+
+1. SCHEMA VALIDATION
+Schema mismatches: 0
+Status: PASS
+
+2. EXACT DUPLICATES
+Exact duplicate rows: 0
+Status: PASS
+
+3. TRIP ID CHECK
+Repeated trip_id values: 49
+Extra trip_id occurrences: 131
+Note: trip_id may repeat across different service dates.
+
+4. COMPOSITE KEY
+Key: trip_id + service_date
+Duplicate composite keys: 0
+Status: PASS
+
+5. MISSING VALUES
+trip_id: 0
+service_date: 0
+route_id: 0
+origin_stop_id: 0
+scheduled_departure: 0
+observed_departure: 0
+destination_stop_id: 0
+scheduled_arrival: 0
+observed_arrival: 0
+scheduled_departure_sec: 0
+observed_departure_sec: 0
+scheduled_arrival_sec: 0
+observed_arrival_sec: 0
+scheduled_travel_min: 0
+observed_travel_min: 0
+arrival_delay_min: 0
+departure_delay_min: 0
+travel_time_delta_min: 0
+source_month: 0
+Total missing values: 0
+Status: PASS
+
+6. NUMERIC SANITY CHECKS
+
+scheduled_travel_min
+min: 1.0
+max: 11.0
+negative count: 0
+zero count: 0
+
+observed_travel_min
+min: 1.6
+max: 11.766666666666667
+negative count: 0
+zero count: 0
+
+arrival_delay_min
+min: 0.6833333333333333
+max: 11.9
+negative count: 0
+zero count: 0
+
+departure_delay_min
+min: 0.18333333333333332
+max: 11.3
+negative count: 0
+zero count: 0
+
+travel_time_delta_min
+min: -0.5
+max: 1.3666666666666671
+negative count: 23
+zero count: 247
+
+7. FORMULA VALIDATION
+Travel-time formula errors: 0
+Delay formula errors: 0
+Status: PASS
