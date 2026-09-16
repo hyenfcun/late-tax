@@ -1,7 +1,7 @@
 LATE TAX - DATA QUALITY REPORT
 ========================================
 Master file: data/processed/daly_powell_all_v2.csv
-Total rows: 308
+Total rows: 1813
 Total columns: 19
 Monthly files: 15
 
@@ -14,8 +14,8 @@ Exact duplicate rows: 0
 Status: PASS
 
 3. TRIP ID CHECK
-Repeated trip_id values: 49
-Extra trip_id occurrences: 131
+Repeated trip_id values: 250
+Extra trip_id occurrences: 877
 Note: trip_id may repeat across different service dates.
 
 4. COMPOSITE KEY
@@ -56,27 +56,27 @@ zero count: 0
 
 observed_travel_min
 min: 1.6
-max: 11.766666666666667
+max: 28.966666666666665
 negative count: 0
 zero count: 0
 
 arrival_delay_min
 min: 0.6833333333333333
-max: 11.9
+max: 25.133333333333333
 negative count: 0
 zero count: 0
 
 departure_delay_min
-min: 0.18333333333333332
-max: 11.3
+min: 0.11666666666666667
+max: 22.883333333333333
 negative count: 0
 zero count: 0
 
 travel_time_delta_min
-min: -0.5
-max: 1.3666666666666671
-negative count: 23
-zero count: 247
+min: -1.666666666666666
+max: 18.966666666666665
+negative count: 161
+zero count: 1110
 
 7. FORMULA VALIDATION
 Travel-time formula errors: 0

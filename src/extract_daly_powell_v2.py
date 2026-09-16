@@ -280,22 +280,9 @@ def process_month(zip_path):
         ]
     )
 
-    # Morning commute:
-    # scheduled departure from Daly City
-    # from 07:00 inclusive to 10:00 exclusive.
-    journeys = journeys[
-        (
-            journeys[
-                "scheduled_departure_sec"
-            ] >= 7 * 3600
-        )
-        &
-        (
-            journeys[
-                "scheduled_departure_sec"
-            ] < 10 * 3600
-        )
-    ].copy()
+    # Keep all weekday observations.
+    # Peak-period segmentation will be created later
+    # during feature engineering.
 
     journeys["scheduled_travel_min"] = (
         journeys["scheduled_arrival_sec"]
