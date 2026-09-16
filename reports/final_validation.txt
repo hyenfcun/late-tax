@@ -1,0 +1,29 @@
+===== FINAL PROJECT VALIDATION =====
+
+[PASS] Analytics dataset exists — data/processed/late_tax_analytics.csv
+[PASS] Expected analytics row count — 1,813 rows
+[PASS] Required analytics schema — all required columns present
+[PASS] Unique service-date trip key — 0 duplicate service_date + trip_id keys
+[PASS] Late-trip definition — 0 mismatches
+[PASS] Late Tax is non-negative — 0 negative values
+[PASS] Total late trips — 121
+[PASS] Overall late-trip rate — 6.67%
+[PASS] Total Late Tax reconciliation — 1,222.38 minutes
+[PASS] Expected route coverage — BA:Blue-N, BA:Green-N, BA:Red-N, BA:Yellow-N
+[PASS] Yellow-N Overnight trip count — 335
+[PASS] Yellow-N Overnight late trips — 88
+[PASS] Yellow-N Overnight late-trip rate — 26.27%
+[PASS] Yellow-N Overnight Late Tax — 834.58 minutes
+[PASS] Yellow-N Overnight Late Tax share — 68.28%
+[PASS] BI dashboard dataset exists — data/bi/late_tax_dashboard.csv
+[PASS] Operational hotspots BI output exists — data/bi/operational_hotspots.csv
+[PASS] BI dashboard dataset is non-empty — 1,813 rows
+[PASS] Operational hotspots output is non-empty — 19 rows
+[PASS] Week 6 Power BI evidence — 4/4 evidence files present
+[PASS] Week 7 portfolio artifacts — executive summary, recommendations, architecture present
+
+===== SUMMARY =====
+Checks passed: 21/21
+Checks failed: 0
+
+RESULT: ALL VALIDATION CHECKS PASSED
